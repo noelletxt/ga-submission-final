@@ -1,0 +1,54 @@
+/* Navbar styles */
+
+.navbar {
+    background-color: #fdfd96; /* Pastel yellow background */
+}
+.navbar .nav-link, .navbar .navbar-brand {
+    color: grey; /* Grey text */
+}
+.navbar .nav-link:hover, .navbar .navbar-brand:hover {
+    color: darkgrey; /* Darker grey on hover */
+}
+
+/* Carousel styles */
+.carousel-item img {
+    border: 5px solid #FFD700; /* Yellow border */
+    object-fit: cover;
+    height: 300px; /* Adjust height as needed */
+}
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 10px;
+    color: #000; /* Black text */
+}
+
+/* Card styles */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title, .card-text {
+    text-align: center;
+}
+
+/* Centering text and text boxes */
+.center-text {
+    text-align: center;
+}
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 50px; /* Rounded buttons */
+    background-color: #FFD700; /* Yellow background */
+    color: #000; /* Black text */
+    border: none; /* No border */
+}
+.btn:hover {
+    background-color: #FFC300; /* Slightly darker yellow on hover */
+}
